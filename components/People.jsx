@@ -1,4 +1,8 @@
 export default function People() {
+	const openURL = (url) => {
+		window.open(url, "_blank");
+	}
+
 	return (
 		<section
 			style={{
@@ -23,10 +27,10 @@ export default function People() {
 					flexWrap: "wrap",
 				}}
 			>
-				<div className="user">
-					<img src="/favicon.ico" alt="user" />
-					<h3>John Doe</h3>
-					<p>CEO</p>
+				<div className="user" onClick={() => openURL("https://github.com/SudhanPlayz")}>
+					<img src="https://avatars.githubusercontent.com/u/55418697" alt="user" />
+					<h3>Sudhan</h3>
+					<p>Frontend Developer</p>
 				</div>
 				<div className="user">
 					<img src="/favicon.ico" alt="user" />

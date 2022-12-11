@@ -232,6 +232,12 @@ body {
   justify-content: center;
   flex-direction: column;
   background: #5ec53e;
+  transition: all 0.3s ease-in-out;
+
+  &:hover{
+    scale: 1.2;
+    cursor: pointer;
+  }
 
   img {
     width: 90px;
