@@ -1,3 +1,6 @@
+import Image from 'next/image'
+
+
 const people = [
 	{
 		name: "Sudharson",
@@ -50,7 +53,7 @@ export default function People() {
 			}}
 			className="people"
 		>
-			<h1>Who's building it?</h1>
+			<h1>Who&apos;s building it?</h1>
 			<div
 				style={{
 					display: "flex",
@@ -62,7 +65,7 @@ export default function People() {
 			>
 				{people.map((person) => (
 					<div className="user" onClick={() => openURL(person.url)} key={person.url}>
-						<img src={person.img} alt="user" />
+						<Image src={person.img} alt="user" width={30} height={30} />
 						<h3>{person.name}</h3>
 						<p>{person.role}</p>
 					</div>
