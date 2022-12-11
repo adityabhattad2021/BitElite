@@ -61,7 +61,7 @@ export default function People() {
 				}}
 			>
 				{people.map((person) => (
-					<div className="user" onClick={() => openURL(person.url)}>
+					<div className="user" onClick={() => openURL(person.url)} key={person.url}>
 						<img src={person.img} alt="user" />
 						<h3>{person.name}</h3>
 						<p>{person.role}</p>

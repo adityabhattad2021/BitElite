@@ -11,7 +11,9 @@ export default function About() {
 				}}
 			>
 				<div className="ml-14">
-					<h1 className="drop-shadow-2xl shadow-white">Deduplication Layer</h1>
+					<h1 className="drop-shadow-2xl shadow-white">
+						Deduplication Layer
+					</h1>
 					<div className="flex flex-row">
 						<p className="mr-4">on</p>
 						<h2>Filecoin Virtual Machine</h2>
@@ -28,10 +30,23 @@ export default function About() {
 				}}
 			>
 				<h1>What it does?</h1>
-				<p>The pricing model of web2 storage providers like Dropbox or Google Drive charges users per GB. In a scenario where you and a friend both subscribe to Dropbox and store the same file on your respective accounts, you would both be charged by Dropbox for storing the file. Although Filecoin is a web3 solution, it still follows the pricing model of web2 storage providers.
-<br/>
-<br/>
-However, with our solution, if multiple users are storing the same file, they can share the cost of storing it. This means that there will only be one copy of the file in the network (excluding fault-tolerance requirements). This can lead to significant cost savings for users and increased security and reliability.</p>
+				<p>
+					The pricing model of web2 storage providers like Dropbox or
+					Google Drive charges users per GB. In a scenario where you
+					and a friend both subscribe to Dropbox and store the same
+					file on your respective accounts, you would both be charged
+					by Dropbox for storing the file. Although Filecoin is a web3
+					solution, it still follows the pricing model of web2 storage
+					providers.
+					<br />
+					<br />
+					However, with our solution, if multiple users are storing
+					the same file, they can share the cost of storing it. This
+					means that there will only be one copy of the file in the
+					network (excluding fault-tolerance requirements). This can
+					lead to significant cost savings for users and increased
+					security and reliability.
+				</p>
 			</section>
 		</>
 	);
