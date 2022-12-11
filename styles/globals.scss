@@ -215,6 +215,8 @@ body {
 }
 
 .people {
+  margin-top: 100px;
+
   h1 {
     font-size: 3rem;
   }
@@ -234,7 +236,7 @@ body {
   background: #5ec53e;
   transition: all 0.3s ease-in-out;
 
-  &:hover{
+  &:hover {
     scale: 1.2;
     cursor: pointer;
   }
@@ -256,8 +258,16 @@ body {
   }
 }
 
+@media(max-width: 860px) {
+  .people {
+    margin-top: 150px;
+  }
+}
+
 @media (max-width: 768px) {
   .people {
+    margin-bottom: 150px;
+
     h1 {
       font-size: 2rem;
     }
@@ -294,8 +304,10 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .people {
+    margin-top: 200px;
+
     h1 {
       font-size: 2rem;
     }
@@ -305,7 +317,7 @@ body {
     font-weight: 400;
     font-size: 1.5rem;
     margin-top: 20px;
-    margin: 30px;
+    margin: 10px;
     padding: 20px;
     border-radius: 5px;
     display: flex;
@@ -331,8 +343,10 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .people {
+    margin-top: 300px;
+
     h1 {
       font-size: 1.8rem;
     }
@@ -365,6 +379,75 @@ body {
     p {
       font-size: 0.8rem;
       font-weight: 300;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .people {
+    margin-top: 350px;
+  }
+}
+
+.info {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 860px) {
+  .info{
+    p{
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .info {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin-top: -10px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .info {
+    margin-bottom: 50px;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin-top: -10px;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .info {
+    margin-bottom: 100px;
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-top: -10px;
+      font-size: 1rem;
     }
   }
 }
