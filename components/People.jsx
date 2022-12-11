@@ -11,6 +11,7 @@ export default function People() {
 				justifyContent: "center",
 				flexDirection: "column",
 			}}
+			className="people"
 		>
 			<h1>Who's building it?</h1>
 			<div
