@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  background-color: #7AF455;
+  overflow-x: hidden;
+}
+
+.layout{
+  overflow: hidden;
+}
+
+.landing {
+  h1 {
+    font-weight: 900;
+    font-size: 9rem;
+    margin-bottom: -15px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin-bottom: -15px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing {
+    padding-left: 15px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 6rem;
+      margin-bottom: -15px;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 3.5rem;
+      margin-bottom: -15px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.5rem;
+      letter-spacing: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .landing {
+    padding: 20px;
+    padding-top: 140px;
+    padding-left: 15px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 4rem;
+      margin-bottom: -15px;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 2.5rem;
+      margin-bottom: -15px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.5rem;
+      letter-spacing: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .landing {
+    padding: 20px;
+    padding-top: 140px;
+    padding-left: 0px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 4rem;
+      margin-bottom: -15px;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 2.5rem;
+      margin-bottom: -15px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.5rem;
+      letter-spacing: 0.8rem;
+    }
+  }
+}
+
+.about {
+  h1 {
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: -15px;
+    text-shadow: 3px 3px white;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: -15px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding-left: 15px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 3rem;
+      margin-bottom: -15px;
+      text-shadow: 3px 3px white;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-bottom: -15px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 20px;
+    padding-top: 140px;
+    padding-left: 15px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 3rem;
+      margin-bottom: -15px;
+      text-shadow: 3px 3px white;
+    }
+
+    h2 {
+      margin-top: 10px;
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-bottom: -15px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .about {
+    padding: 20px;
+    padding-top: 140px;
+    padding-left: 0px;
+
+    h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      margin-bottom: -15px;
+      text-shadow: 3px 3px white;
+    }
+
+    h2 {
+      margin-top: 15px;
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: -15px;
+    }
+
+    p {
+      margin-top: 15px;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+  }
+}
+
+
+.user {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #5ec53e;
+
+  img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  h3{
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+}

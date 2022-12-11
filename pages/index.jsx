@@ -5,7 +5,7 @@ import People from '../components/People'
 
 export default function Home() {
   return (
-    <div>
+    <div className="layout">
       <Head>
         <title>BitElite</title>
         <meta name="BitElite" content="We love to BUIDL!" />
