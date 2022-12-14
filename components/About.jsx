@@ -59,23 +59,25 @@ export default function About() {
 				</motion.div>
 			</section>
 			<section
-				className="info flex-col align-middle justify-center items-center font-sans content-center p-10 pt-36"
+				className="info flex-col align-middle justify-center items-center font-sans content-center px-36 mb-10 py-20 "
 				style={{
 					background: "url(/3.png) no-repeat center center",
 					backgroundSize: "cover",
 					height: "100vh",
 					width: "100vw",
+					marginBottom:"20px"
 				}}
 			>
 				<motion.div
 					whileInView={container.visible}
 					variants={container}
 					initial="hidden"
+					
 				>
 					<motion.h1 variants={item} whileInView={item.visible}>
 						What it does?
 					</motion.h1>
-					<motion.p variants={item} whileInView={item.visible}>
+					<motion.p variants={item} whileInView={item.visible} >
 						The pricing model of web2 storage providers like Dropbox
 						or Google Drive charges users per GB. In a scenario
 						where you and a friend both subscribe to Dropbox and
