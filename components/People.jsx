@@ -13,24 +13,28 @@ const people = [
 		role: "Frontend Developer",
 		github: "https://github.com/adityabhattad2021",
 		img: "https://avatars.githubusercontent.com/u/93488388",
+		linkedin: "https://www.linkedin.com/in/aditya-bhattad-44188a22b/"
 	},
 	{
 		name: "Mallikarjun Reddy",
 		role: "Solidity Developer",
 		github: "https://github.com/rummuer",
 		img: "https://avatars.githubusercontent.com/u/25072266",
+		linkedin: "https://www.linkedin.com/in/mallikarjun-reddy-dorsala-12533663/"
 	},
 	{
 		name: "Jithin KS",
 		role: "Backend Developer",
 		github: "https://github.com/JithinKS97",
 		img: "https://avatars.githubusercontent.com/u/19987520",
+		linkedin: "https://www.linkedin.com/in/jithinks112/"
 	},
 	{
 		name: "Navil Rodrigues",
 		role: "Backend Developer",
 		github: "https://github.com/rodriguesnavil",
 		img: "https://avatars.githubusercontent.com/u/32533176",
+		linkedin: "https://www.linkedin.com/in/navil-rodrigues-295784a4/"
 	},
 ]
 
